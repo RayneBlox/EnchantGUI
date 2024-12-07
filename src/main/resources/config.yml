@@ -1,0 +1,31 @@
+# CREATED BY R_ayne
+# https://discord.gg/nrFSp8VugF
+enchantments:
+  fortune:
+    # Is it enabled? (Will not remove from the GUI)
+    enabled: true
+    # The cost when the pickaxe is not enchanted
+    basecost: 150
+
+  efficiency:
+    enabled: true
+    basecost: 150
+
+  unbreaking:
+    enabled: true
+    basecost: 150
+
+  # How much will the price go up by every level? Default: 1.5
+  multi: 1.5
+
+  # Please keep in mind that the maximum level an enchantment can go to is 32,767.
+  # Any higher than that and the tool will be unusable unless commands are applied.
+  maxlevel: 255
+
+messages:
+  reload_success: "&b&lPlugin has been reloaded successfully!"
+  error_message: "&c&lAn error occurred. Please try again. If you need help, join https://discord.gg/nrFSp8VugF"
+  max_enchant: "Your tool has reached the maximum enchantment level!"
+
+# DO NOT CHANGE
+version: 1.0

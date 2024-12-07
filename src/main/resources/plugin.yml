@@ -3,5 +3,18 @@ version: 1.0
 main: com.Rayne.EnchantGUI.EnchantGUIPlugin
 api-version: 1.20
 description: A plugin to purchase and upgrade pickaxe enchantments via a GUI.
-authors: "Rayne"
+author: R_ayne
 depend: [Vault]
+
+commands:
+  enchantgui:
+    description: Main command for the EnchantGUI plugin
+    usage: /<command> [reload|version]
+  reload:
+    description: Reloads the EnchantGUI plugin.
+    usage: /<command> reload
+    permission: enchantgui.reload
+    permission-message: You do not have permission to reload the plugin.
+  version:
+    description: Displays the version of the plugin
+    usage: /<command> version
